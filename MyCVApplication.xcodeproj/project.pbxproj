@@ -14,6 +14,7 @@
 		5C3EB6FC227B193D009194A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3EB6FB227B193D009194A5 /* Assets.xcassets */; };
 		5C3EB6FF227B193D009194A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3EB6FD227B193D009194A5 /* LaunchScreen.storyboard */; };
 		5C3EB707227B1E18009194A5 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EB706227B1E18009194A5 /* ThirdViewController.swift */; };
+		5CA06229227CA68100E84322 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA06228227CA68100E84322 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5C3EB6FE227B193D009194A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C3EB700227B193D009194A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C3EB706227B1E18009194A5 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		5CA06228227CA68100E84322 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				5C3EB6FD227B193D009194A5 /* LaunchScreen.storyboard */,
 				5C3EB700227B193D009194A5 /* Info.plist */,
 				5C3EB706227B1E18009194A5 /* ThirdViewController.swift */,
+				5CA06228227CA68100E84322 /* WebViewController.swift */,
 			);
 			path = MyCVApplication;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				5C3EB6F7227B193D009194A5 /* SecondViewController.swift in Sources */,
 				5C3EB6F3227B193D009194A5 /* AppDelegate.swift in Sources */,
 				5C3EB707227B1E18009194A5 /* ThirdViewController.swift in Sources */,
+				5CA06229227CA68100E84322 /* WebViewController.swift in Sources */,
 				5C3EB6F5227B193D009194A5 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
