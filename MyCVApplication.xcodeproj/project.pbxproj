@@ -15,6 +15,8 @@
 		5C3EB6FF227B193D009194A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3EB6FD227B193D009194A5 /* LaunchScreen.storyboard */; };
 		5C3EB707227B1E18009194A5 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EB706227B1E18009194A5 /* ThirdViewController.swift */; };
 		5CA06229227CA68100E84322 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA06228227CA68100E84322 /* WebViewController.swift */; };
+		FA119F9B227EFE8B005432A1 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA119F9A227EFE8B005432A1 /* MyCollectionViewCell.swift */; };
+		FA119F9F227F4B72005432A1 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA119F9E227F4B72005432A1 /* ProjectsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		5C3EB700227B193D009194A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C3EB706227B1E18009194A5 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		5CA06228227CA68100E84322 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		FA119F9A227EFE8B005432A1 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA119F9E227F4B72005432A1 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				5C3EB700227B193D009194A5 /* Info.plist */,
 				5C3EB706227B1E18009194A5 /* ThirdViewController.swift */,
 				5CA06228227CA68100E84322 /* WebViewController.swift */,
+				FA119F9A227EFE8B005432A1 /* MyCollectionViewCell.swift */,
+				FA119F9E227F4B72005432A1 /* ProjectsViewController.swift */,
 			);
 			path = MyCVApplication;
 			sourceTree = "<group>";
@@ -145,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA119F9F227F4B72005432A1 /* ProjectsViewController.swift in Sources */,
 				5C3EB6F7227B193D009194A5 /* SecondViewController.swift in Sources */,
 				5C3EB6F3227B193D009194A5 /* AppDelegate.swift in Sources */,
+				FA119F9B227EFE8B005432A1 /* MyCollectionViewCell.swift in Sources */,
 				5C3EB707227B1E18009194A5 /* ThirdViewController.swift in Sources */,
 				5CA06229227CA68100E84322 /* WebViewController.swift in Sources */,
 				5C3EB6F5227B193D009194A5 /* FirstViewController.swift in Sources */,

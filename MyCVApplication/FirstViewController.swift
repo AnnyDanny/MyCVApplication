@@ -19,6 +19,7 @@ import UIKit
 class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
     
     let myArray: Array = ["Phone","E-mail","Skype"]
+    let data: Array = ["+38050-200-84-33", "aniadanylova@gmail.com", "anndann2201"]
     var myTableView: UITableView!
     
 
@@ -55,15 +56,22 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
 //        view1.backgroundColor = .yellow
         view2.frame = CGRect(x: 0, y: 250, width: view.frame.size.width, height: 150)
         view2.backgroundColor = .white
-        view3.frame = CGRect(x: 0, y: 300, width: view.frame.size.width, height: 400)
+        view3.frame = CGRect(x: 0, y: 380, width: view.frame.size.width, height: 400)
         view3.backgroundColor = .yellow
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.frame = view1.frame
-        gradientLayer.colors = [UIColor(red: 0/255, green: 147/255, blue: 255/255, alpha: 1.0).cgColor, UIColor(red: 162/255, green: 134/255, blue: 255/255, alpha: 1.0).cgColor]
-        gradientLayer.locations = [0.0, 1.0]
-        gradientLayer.startPoint = CGPoint(x: 0.0, y: 1.0)
-        gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.0)
-        view1.layer.addSublayer(gradientLayer)
+        
+        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        backgroundImage.image = UIImage(named: "space")
+        backgroundImage.contentMode = UIViewContentMode.scaleAspectFill
+        view1.insertSubview(backgroundImage, at: 0)
+        
+//        let gradientLayer = CAGradientLayer()
+//        gradientLayer.frame = view1.frame
+//        gradientLayer.colors = [UIColor(red: 0/255, green: 147/255, blue: 255/255, alpha: 1.0).cgColor, UIColor(red: 162/255, green: 134/255, blue: 255/255, alpha: 1.0).cgColor]
+//        gradientLayer.locations = [0.0, 1.0]
+//        gradientLayer.startPoint = CGPoint(x: 0.0, y: 1.0)
+//        gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.0)
+//        view1.layer.addSublayer(gradientLayer)
+        
         view.addSubview(view1)
         view.addSubview(view3)
         setImage(view1: view1)
@@ -195,6 +203,10 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath as IndexPath)
         cell.textLabel!.text = myArray[indexPath.row]
+        var label = UILabel(frame: CGRect(x: 180.0, y: 14.0, width: 200.0, height: 30.0))
+        label.text = data[indexPath.row]
+        label.tag = indexPath.row
+        cell.contentView.addSubview(label)
         return cell
     }
     
@@ -205,7 +217,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         let name = UILabel(frame: CGRect(x: 150, y: 60, width: 200, height: 100))
         name.text = "Danylova Anna"
         name.font = UIFont.preferredFont(forTextStyle: .footnote)
-        name.textColor = .black
+        name.textColor = .blue
         //        popup.backgroundColor = UIColor.lightGray
         name.font = UIFont.systemFont(ofSize: 30)
         // show on screen
@@ -214,11 +226,12 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         let position = UILabel(frame: CGRect(x: 200, y: 80, width: 200, height: 100))
         position.text = "IOS/Swift Developer"
         position.font = UIFont.systemFont(ofSize: 20)
+        position.textColor = .blue
         
         let label = UILabel()
         label.frame = CGRect(x: 150, y: 200, width: 200, height: 20)
         label.text = "Hello World!"
-        label.textColor = .black
+        label.textColor = .blue
         UIView.animate(withDuration: 5) {
             label.frame = CGRect(x: 150, y: 300, width: 200, height: 20)
             view1.addSubview(label)
