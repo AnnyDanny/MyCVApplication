@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C225E862280A01600ADF7DE /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C225E852280A01600ADF7DE /* ContactsTableViewCell.swift */; };
 		5C3EB6F3227B193D009194A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EB6F2227B193D009194A5 /* AppDelegate.swift */; };
 		5C3EB6F5227B193D009194A5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EB6F4227B193D009194A5 /* FirstViewController.swift */; };
 		5C3EB6F7227B193D009194A5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EB6F6227B193D009194A5 /* SecondViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C225E852280A01600ADF7DE /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
 		5C3EB6EF227B193D009194A5 /* MyCVApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCVApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3EB6F2227B193D009194A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C3EB6F4227B193D009194A5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				5CA06228227CA68100E84322 /* WebViewController.swift */,
 				FA119F9A227EFE8B005432A1 /* MyCollectionViewCell.swift */,
 				FA119F9E227F4B72005432A1 /* ProjectsViewController.swift */,
+				5C225E852280A01600ADF7DE /* ContactsTableViewCell.swift */,
 			);
 			path = MyCVApplication;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C225E862280A01600ADF7DE /* ContactsTableViewCell.swift in Sources */,
 				FA119F9F227F4B72005432A1 /* ProjectsViewController.swift in Sources */,
 				5C3EB6F7227B193D009194A5 /* SecondViewController.swift in Sources */,
 				5C3EB6F3227B193D009194A5 /* AppDelegate.swift in Sources */,

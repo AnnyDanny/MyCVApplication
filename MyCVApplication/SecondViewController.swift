@@ -21,7 +21,7 @@ During IOS development learning I worked with such tools and technologies:
 1. Also i worked with API Tweeter and API 42 school.
 2. I learned and used MapKit.
 3. Also i discovered Gestures.
-4. I used different frameworks and worked with Cooapods.
+4. I used different frameworks and worked with Cocoapods.
 
 
 At the beginning of my studies in UNIT Factory I studied the C language and have validated such projects:
@@ -32,17 +32,17 @@ At the beginning of my studies in UNIT Factory I studied the C language and have
 4. Participation in the command project Corewar. In this project, our command created a virtual “arena” in which programs will fight against one another (the “Champions”).
 Also in UNIT factory i passed intensive course PHP and have basic knowledge of HTML/CSS.
 """, """
-UNIT factory (2017-present) "Software engineering Mobile development"
-National Aviation University (2009-2015) "Geodesy, cartography, land management"
+• UNIT factory (2017-present) "Software engineering Mobile development"
+• National Aviation University (2009-2015) "Geodesy, cartography, land management"
 """, """
-Development tools: LLDB / GDB
-Operating system: Linux
-Command shell: Bash
-Software platform: Docker
-Version control system: Git
-IDE: Visual Studio and Xcode.
+• Development tools: LLDB / GDB
+• Operating system: Linux
+• Command shell: Bash
+• Software platform: Docker
+• Version control system: Git
+• IDE: Visual Studio and Xcode.
 """, """
-Sport, Martial arts, nature, computer science, traveling.
+Sport, martial arts, nature, computer science, traveling, music.
 """]
     
     @IBOutlet weak var collectionView: UICollectionView!

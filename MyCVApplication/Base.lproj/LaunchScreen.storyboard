@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space1" translatesAutoresizingMaskIntoConstraints="NO" id="Xaa-oJ-GND">
-                                <rect key="frame" x="0.0" y="0.0" width="376" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Danylova Anna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aec-oo-SAK">
                                 <rect key="frame" x="165" y="294" width="170" height="23"/>
@@ -41,8 +41,7 @@
                             <constraint firstItem="MU5-MP-1tx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="201" id="JUa-u9-tNA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MU5-MP-1tx" secondAttribute="trailing" constant="90" id="KuT-mM-GNQ"/>
                             <constraint firstItem="aec-oo-SAK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="165" id="N17-Ph-R4o"/>
-                            <constraint firstItem="Xaa-oJ-GND" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="1" id="VS1-1W-q1m"/>
-                            <constraint firstItem="Xaa-oJ-GND" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Vrg-Fb-27B"/>
+                            <constraint firstItem="Xaa-oJ-GND" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="VS1-1W-q1m"/>
                             <constraint firstItem="Xaa-oJ-GND" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Ws8-of-4lF"/>
                             <constraint firstItem="MU5-MP-1tx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="aM1-wu-Vco"/>
                             <constraint firstItem="Xaa-oJ-GND" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gm0-FM-LEB"/>

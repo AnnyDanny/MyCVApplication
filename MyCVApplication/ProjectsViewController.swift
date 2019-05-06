@@ -20,7 +20,7 @@ struct Projects {
     }
 }
 
-var projectsArray = [Projects(title: "Death Note", description: "In whis application I created a table view and display the name and description of the death of 3 different people in the table view cells and button in the right slot of the navigation bar which allows you to go to another view. Also added ability to add entries to our table view", photo: UIImage(named: "DeathNote")!), Projects(title: "Photo Collection", description: """
+var projectsArray = [Projects(title: "Photo Collection", description: """
 Create photo collection and learned:
 • how to use a collection view
 • how to do a multithread on iOS
