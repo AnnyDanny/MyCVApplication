@@ -42,12 +42,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-//    label.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true
-//    label.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
-//    label.leadingAnchor.constraint(equalTo: self.view.leadingAnchor).isActive = true
-//    label.trailingAnchor.constraint(equalTo: self.view.trailingAnchor).isActive = true
-    
+   
     func addViews() {
         let view1 = UIView()
         let view2 = UIView()
@@ -86,8 +81,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     func setSummarryText(view2: UIView) {
         let summaryText = UILabel(frame: CGRect(x: 3, y: 0, width: view.frame.size.width, height: 300))
         summaryText.numberOfLines = 0
-        //        summaryText.center = CGPoint(x: 5, y: 10)
-                summaryText.textAlignment = .center
+        summaryText.textAlignment = .center
         summaryText.text = "I'm a beginner Swift/iOS Developer looking for an internship in software development with a focus on mobile applications. I am very motivated, eager to learn and contribute all my effort to becomnig a first-class programmer. I have already developed a number of applications in Swift. I am constantly striving to perfect my skills and knowledge and it would be an honor to become a part of your team."
         summaryText.font = UIFont.systemFont(ofSize: 15)
         summaryText.frame.size.height = 150

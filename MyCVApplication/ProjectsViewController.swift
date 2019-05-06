@@ -20,13 +20,30 @@ struct Projects {
     }
 }
 
-var projectsArray = [Projects(title: "Death Note", description: "Create note...", photo: UIImage(named: "DeathNote")!), Projects(title: "Photo Collection", description: "Create photo collection...", photo: UIImage(named: "PhotoCollection")!), Projects(title: "MapKit", description: "Create MapKit", photo: UIImage(named: "MapKit")!)]
+var projectsArray = [Projects(title: "Death Note", description: "In whis application I created a table view and display the name and description of the death of 3 different people in the table view cells and button in the right slot of the navigation bar which allows you to go to another view. Also added ability to add entries to our table view", photo: UIImage(named: "DeathNote")!), Projects(title: "Photo Collection", description: """
+Create photo collection and learned:
+• how to use a collection view
+• how to do a multithread on iOS
+• how to create alerts
+• how to use a scroll view.
+""", photo: UIImage(named: "PhotoCollection")!), Projects(title: "MapKit", description: """
+In this application I knew how Apple makes it possible to make it easy for you to manage your user’s location. I used:
+TabBarController, MKMapView, CLLocationManager, MKAnnotationView.
+""", photo: UIImage(named: "MapKit")!), Projects(title: "Weather", description: "In whis project i worked with Cocoapods and Install the ’RecastAI’ pod to be able to request and use the community Slackbot bot with the weather intention and the token.", photo: UIImage(named: "weather")!), Projects(title: "Connection places in map", description: """
+Here my application contains these features :
+    • Geolocating the mobile phone
+    • Finding an address and displaying its location on a map
+    • Displaying the route on the map if desired. With the choice of departure and destination.
+""", photo: UIImage(named: "pathInMap")!), Projects(title: "Gestures", description: "In this project I created shapes and add some Gesture to this shapes", photo: UIImage(named: "Gestures")!), Projects(title: "API Tweeter", description: "In this project I learned to do HTTP requests to the Twitters’s API on iOS with the goal of creating a client application for Twitter. It will have to display tweets in a table view.", photo: UIImage(named: "APITweeter")!), Projects(title: "Swift Companion", description: "Now I am working with project in UNIT Factory. The aim of the projet is to build an application that will retrieve the information of 42 student, using the 42 API.", photo: UIImage(named: "SwiftCompanion")!)]
+
 
 
 class ProjectsViewController: UIViewController {
 
+
     @IBOutlet weak var projectNavigatorBar: UINavigationBar!
     
+  
     @IBOutlet weak var projectDescription: UILabel!
     
     @IBOutlet weak var projectImage: UIImageView!
