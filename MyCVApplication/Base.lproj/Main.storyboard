@@ -160,6 +160,7 @@
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="3Az-oS-G51" secondAttribute="trailing" id="1vl-vW-5uZ"/>
                                             <constraint firstItem="3Az-oS-G51" firstAttribute="top" secondItem="Ome-a8-2WO" secondAttribute="bottom" constant="5" id="Aa2-pS-KdI"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="e6e-eH-l8V" secondAttribute="trailing" symbolic="YES" id="Abo-7D-SUj"/>
                                             <constraint firstItem="3Az-oS-G51" firstAttribute="leading" secondItem="msF-PC-YRV" secondAttribute="leading" constant="10" id="LW1-dG-OuM"/>
                                             <constraint firstItem="wOP-sW-BNb" firstAttribute="leading" secondItem="Ome-a8-2WO" secondAttribute="trailing" constant="15" id="NKl-Dd-lI6"/>
                                             <constraint firstAttribute="trailing" secondItem="Ome-a8-2WO" secondAttribute="trailing" constant="230" id="Nna-dG-x3m"/>
