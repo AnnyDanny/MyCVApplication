@@ -1,4 +1,4 @@
-# MyCVApplication for MacPaw intership in macOS/iOS Development.
+# MyCVApplication for MacPaw summer intership in macOS/iOS Development.
 
 Hello!:) 
 
