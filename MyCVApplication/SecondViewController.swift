@@ -12,7 +12,7 @@ class SecondViewController: UIViewController, UICollectionViewDataSource, UIColl
     
     var imageArray = [String]()
     
-    let items = ["WORK EXPERIENCE", "EDUCATIONALY", "SKILLS", "HOBBIES"]
+    let items = ["WORK EXPERIENCE", "EDUCATION", "SKILLS", "HOBBIES"]
     let descriptions = ["""
 Student of UNIT Factory (IOS/Swift development) 2017-present.
     I have been actively learning Swift programming language. Now I finished the intensive-course Swift which was in UNIT factory. And I am working on creating my own application with Swift.
@@ -91,7 +91,9 @@ Sport, Martial arts, nature, computer science, traveling.
     }
     
     @objc func backButtonAction() {
-        let indexPath = collectionView?.indexPathsForSelectedItems as! [IndexPath]
+        guard let indexPath = collectionView?.indexPathsForSelectedItems else {
+            return
+        }
         collectionView?.isSpringLoaded = true
         collectionView?.isScrollEnabled = true
         collectionView?.reloadItems(at: indexPath)

@@ -71,7 +71,6 @@ class ThirdViewController: UIPageViewController, UIPageViewControllerDataSource,
     
     
     func getNextBestProjects(withIndex index : Int) -> ProjectsViewController? {
-        print("hei next\n")
         if index < projectsArray.count {
             let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "imageSwipe") as! ProjectsViewController
             nextVC.projectIndex = index

@@ -22,7 +22,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         super.viewDidLoad()
         addViews()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -179,9 +179,10 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         position.textColor = .white
         
         let label = UILabel()
-        label.frame = CGRect(x: 150, y: 200, width: 200, height: 20)
+        label.frame = CGRect(x: 150, y: 100, width: 200, height: 20)
         label.text = "Hello World!"
         label.textColor = .blue
+        label.font = UIFont.systemFont(ofSize: 30)
         UIView.animate(withDuration: 5) {
             label.frame = CGRect(x: 150, y: 300, width: 200, height: 20)
             view1.addSubview(label)
