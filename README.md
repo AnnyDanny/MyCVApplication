@@ -1,5 +1,3 @@
-# MyCVApplication for MacPaw summer intership in macOS/iOS Development.
-
 Hello!:) 
 
 My name is Anna and I'm UNIT Factory student.
